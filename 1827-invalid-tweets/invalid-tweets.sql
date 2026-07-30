@@ -1,4 +1,4 @@
-/* Write your T-SQL query statement below */
-SELECT tweet_id
-FROM Tweets
-WHERE LEN(content) > 15;
+# Write your MySQL query statement below
+select tweet_id
+from tweets
+where length(content) > 15
